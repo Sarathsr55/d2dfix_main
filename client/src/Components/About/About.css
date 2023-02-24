@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,500;1,400;1,500;1,600&family=Comfortaa:wght@400;700&display=swap');
+
+
+.about-container{
+    background-color: #4f46fd ;
+    color: white;
+    width: 100%;
+}
+.about-topborder{
+    width: 100%;
+    background: url('../../images/wave-topborder.svg') no-repeat;
+    background-size: cover;
+    min-height: 100px;
+}
+.about-heading{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    text-align: center;
+    
+}
+.about-heading h1{
+    font-family: 'Comfortaa';
+}
+.aboutpage{
+    max-width: 1366px;
+    display: flex;
+    justify-content: center;
+    
+}
+.about-content{
+    padding: 20px;
+    max-width: 1366px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-content h5{
+    display: flex;
+    align-items: center;
+    font-family: 'Comfortaa';
+    padding: 0 0 0 4rem;
+}
+.animation-img{
+    width: 250px;
+}
+.about-us{
+    max-width: 50%;
+}
+.about-heading{
+    padding: 5rem 0 5rem 0;
+}
+.about-heading{
+    margin: 4rem 0 0 0;
+}
+
+
+@media screen and (max-width:650px) {
+    .about-topborder{
+        min-height: 40px;
+    }
+    .about-illustration{
+        /* background: url('../../images/repair2.png')no-repeat; */
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+        /* transform: scale(.6); */
+        width: 100% !important;
+        min-width: 600px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .about-us{
+        max-width: 100%;
+    }
+    .about-content h5{
+        padding: 0 0 0 0;
+    }
+    .about-heading{
+        margin: 4rem 0 0 0;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .about-illustration{
+        padding-left: 0;
+        padding-top: 0;
+        /* background: url('../../images/repair1.png') no-repeat;
+        transform: scale(.6); */
+        width: 100% !important;
+        min-width: 600px;
+        min-height: 400px;
+        
+    }
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

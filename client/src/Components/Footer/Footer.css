@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,500;1,400;1,500;1,600&family=Comfortaa:wght@400;700&display=swap');
+
+
+.footer-container{
+    
+    width: 100%;
+    background-color: rgb(38, 38, 38);
+    color: rgb(211, 211, 211);
+    padding-top: 25px;
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom: 1px solid rgba(165, 161, 161, 0.574); */
+    padding-bottom: 10px;
+}
+.about-foot{
+    max-width: 20%;
+}
+.about-heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Andada Pro';
+    padding: 5px;
+    font-weight: bold;
+}
+.service-foot{
+    display: flex;
+    flex-direction: column;
+}
+.service-option{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.service-heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Andada Pro';
+    margin-top: 5px;  
+    font-weight: bold;
+}
+.contact-foot{
+    
+}
+.contact-heading{
+    display: flex;
+    justify-content: center;
+    font-family: 'Andada Pro';
+    font-weight: bold;
+    margin: 4rem 0 0 0;
+}
+.contact-option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+@media screen and (max-width: 960px) {
+    .foot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-foot{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .service-foot{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 25px;
+    }
+    .contact-foot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,500;1,400;1,500;1,600&family=Comfortaa:wght@400;700&display=swap');
+
+.Contact-container{
+    
+    width: 100%;
+    padding-bottom: 50px;
+    
+    
+    
+}
+
+.Contact-heading{
+    width: 100%;
+    padding: 7rem 0 5rem 0;
+    min-height: 150px;
+    background-color: rgb(26, 25, 25);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.Contact-heading h1{
+    font-family: 'Andada Pro';
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+.Contact-heading h6{
+    display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.contact-shape{
+    background-image: url('../../images/wave.svg') ;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 360px;
+}
+.contact-content{
+    display: flex;
+    justify-content: center;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px black;
+    margin-right: 30px;
+    font-family: 'Andada Pro';
+}
+.contact-info h4{
+    color: #6c63ff;
+    border-bottom: 1px solid whitesmoke;
+}
+.contact-illustration{
+    width: 250px;
+}
+.contactform{
+    display: grid;
+    margin: 25px;
+    gap: .5rem;
+    border: .01 solid aliceblue;
+}
+.customer-details{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px  black;
+    background-color: #fff;
+    color: #6c63ff !important;
+}
+
+
+
+
+
+@media screen and (max-width:960px) {
+    .contact-heading h6{
+        display: flex;
+        justify-content: center;
+        max-width: 400px;
+    }
+    .Contact-heading{
+        min-height: 148px !important;
+    }
+    .contact-info{
+        width: 320px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .customer-details{
+        
+        width: 320px;
+        color: #d78f95;
+    }
+    .contact-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+}

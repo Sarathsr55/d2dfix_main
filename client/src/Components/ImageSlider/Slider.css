@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@600&display=swap');
+
+.slider-container{
+    width: 100%;
+    max-height: 700px;
+}
+.slider-title{
+    position: absolute;
+    left: 15%;
+    top: 42%;
+    color: white;
+    text-shadow: 2px 2px 10px black !important;
+}
+.slider-subtitle{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    font-family: 'Anek Malayalam';
+    font-size: larger;
+    color: white;
+    text-shadow: 2px 2px 10px black !important;
+}
+.slider-image{
+    max-height: 700px;
+}
+
+.carousel-item:nth-child(3){
+    color: white;
+    text-shadow: 2px 2px 10px black !important;
+}
+.carousel-item:nth-child(3)>.slider-subtitle{
+    max-width: 750px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:600px) {
+    .slider-image{
+        margin-top: 50px;
+    }
+    .slider-title{
+        top: 60%;
+        left: 20%;
+        text-align: center;
+        color: aliceblue;
+        text-shadow: 2px 2px 10px black;
+    }
+    .slider-title h1{
+        font-size: large;
+        
+    }
+    .slider-subtitle{
+        top: 72%;
+        left: 0%;
+        color: aliceblue;
+        text-shadow: 2px 2px 10px black;
+        padding: 0 1rem 0 1rem;
+    }
+    .slider-subtitle h3{
+        font-size: medium;
+        text-align: center;
+    }
+    .carousel-item:nth-child(3)>.slider-subtitle{
+        color: white;
+        text-shadow: 2px 2px 15px black !important;
+    }
+    .carousel-item:nth-child(3)>.slider-title{
+        left: 30%;
+    }
+    .carousel-item:nth-child(1)>.slider-title{
+        left: 30%;
+    }
+}

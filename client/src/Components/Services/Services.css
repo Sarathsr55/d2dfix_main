@@ -1,0 +1,61 @@
+
+
+
+.servicepage-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-heading{
+    margin: 4rem 0 0 0 !important;
+    color: white;
+}
+.service-container{
+    max-width: 1366px;
+    display: flex;
+    padding: 2rem 0 0 0;
+}
+.service-contents{
+    color: rgba(181, 179, 179, 0.547);
+    width: 100%;
+    height: auto;
+}
+.service-quote{
+    background: url('../../images/meet.svg') no-repeat ;
+    width: 600px;
+    height: 400px;
+    color: whitesmoke;
+    margin: 2rem 0 0 0;
+}
+.service-icons{
+    margin: 50px;
+}
+.service-icon h6{
+    display: flex;
+    justify-content: center;
+}
+.service-quote h4{
+    color: #6c63ff;
+    padding-top: 220px;
+}
+
+
+@media screen and (max-width:960px) {
+    .service-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .service-heading{
+        margin-top: 5px;
+    }
+    .service-quote{
+        width: 300px;
+        height: 300px;
+    }
+    .service-quote h6{
+        color: #6c63ff;
+    }
+}
