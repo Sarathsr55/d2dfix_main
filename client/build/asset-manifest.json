@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69e27f70.css",
+    "main.js": "/static/js/main.d12b7338.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/mail.png": "/static/media/mail.3d7ad2437d467dc5a377.png",
+    "static/media/animation.gif": "/static/media/animation.fad845907801922055f7.gif",
+    "static/media/smartphone.png": "/static/media/smartphone.6c60620f9588c0608b1b.png",
+    "static/media/poster3.jpg": "/static/media/poster3.b1f059716d5b49f32aba.jpg",
+    "static/media/poster2.jpg": "/static/media/poster2.556f9541bf2d14c687c6.jpg",
+    "static/media/5124556.png": "/static/media/5124556.dd75da67dc9ce14080a0.png",
+    "static/media/CND(Final).png": "/static/media/CND(Final).e39131c5398cd0bd252a.png",
+    "static/media/p1.jpeg": "/static/media/p1.8b02ec69c02bd233fa75.jpeg",
+    "static/media/poster4.jpg": "/static/media/poster4.dc82b2e0b26eafd0d6e0.jpg",
+    "static/media/wefix-new.png": "/static/media/wefix-new.4d12d4a1e22655b64f84.png",
+    "static/media/p2.jpeg": "/static/media/p2.b83be8bfec65896fdaf8.jpeg",
+    "static/media/p5.jpeg": "/static/media/p5.966c5a0af3665e28528f.jpeg",
+    "static/media/p4.jpeg": "/static/media/p4.67fd49eee2b42f8a3993.jpeg",
+    "static/media/p3.jpeg": "/static/media/p3.2a9b20bd6074e7be2b6f.jpeg",
+    "static/media/location.png": "/static/media/location.d4ab7702dc08bcd15f7f.png",
+    "static/media/phone.png": "/static/media/phone.f5772de1d7ddf865568c.png",
+    "static/media/D2dPlaystoreFeatureGraphics.png": "/static/media/D2dPlaystoreFeatureGraphics.df96423487847e9d2533.png",
+    "static/media/D2DLogo1.png": "/static/media/D2DLogo1.56d454986e3d5929851a.png",
+    "static/media/freeservice.png": "/static/media/freeservice.5bc5e5484e896b9f6efc.png",
+    "static/media/meet.svg": "/static/media/meet.d4dd2b4ec3890e82488e.svg",
+    "static/media/placeholder.png": "/static/media/placeholder.64cdcb0ef97818161310.png",
+    "index.html": "/index.html",
+    "static/media/wave.svg": "/static/media/wave.254e8acd3662327144c2.svg",
+    "static/media/wave-topborder.svg": "/static/media/wave-topborder.18a159c2566e36e9b9ac.svg",
+    "main.69e27f70.css.map": "/static/css/main.69e27f70.css.map",
+    "main.d12b7338.js.map": "/static/js/main.d12b7338.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69e27f70.css",
+    "static/js/main.d12b7338.js"
+  ]
+}
